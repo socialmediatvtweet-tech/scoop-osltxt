@@ -10,13 +10,8 @@
             "hash": "B156AFD16FA0AA941F2A4643E849085F98B8E7046F11413685B4CB8B191B32DB"
         }
     },
-    "extract_dir": "osltxt-format-1.0.0\\osltxt-format-1.0.0",
     "bin": [
-        [
-            "osltxt.py",
-            "osltxt",
-            "python"
-        ]
+        "osltxt.py"
     ],
     "checkver": "github",
     "autoupdate": {
@@ -25,7 +20,6 @@
                 "url": "https://github.com/socialmediatvtweet-tech/osltxt-format/archive/refs/tags/v$version.zip"
             }
         },
-        "extract_dir": "osltxt-format-$version\\osltxt-format-$version",
         "hash": {
             "url": "https://github.com/socialmediatvtweet-tech/osltxt-format/archive/refs/tags/v$version.zip"
         }
